@@ -1,0 +1,105 @@
+.container {
+	padding: 0;
+	margin: 20px;
+	position: absolute;
+}
+
+.android_logo {
+	/* BG blue green colour */
+	background: #e8f0ff;
+	/* logo container */
+	width: 350px;
+	height: 500px;
+	margin: auto;
+}
+
+.head, .body {
+	/* BG android green colour unless otherwise specified */
+	background: #A4CA39;
+	position: relative;
+	top: 60px;
+	margin: auto;
+}
+
+
+.head {
+	/* Shape */
+	width: 220px;
+	height: 100px;
+	border-radius: 450px 450px 0px 0px;
+}
+
+.l_eye, .r_eye {
+	/* Circle */
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	/* BG colour */
+	background: #e8f0ff;
+	top: 50px;
+	position: absolute;
+}
+
+.l_eye {
+	left: 140px;
+}
+
+.r_eye {
+	right: 140px;
+}
+
+.l_ant, .r_ant {
+	/* shape */
+	width: 5px;
+	height: 70px;
+	border-radius: 5px;
+	position: absolute;
+	top: -40px;
+	/* BG android green colour unless otherwise specified */
+	background: inherit;
+}
+
+.l_ant {
+	left: 60px;
+	transform: rotate(-30deg);
+}
+
+.r_ant {
+	right: 60px;
+	transform: rotate(30deg);
+}
+
+.body {
+	/* shape */
+	width: 220px;
+	height: 220px;
+	border-radius: 0px 0px 30px 30px;
+	margin-top: 10px;
+	
+}
+
+.l_arm, .r_arm, .l_leg, .r_leg {
+	width: 50px;
+	height: 170px;
+	position: absolute;
+	border-radius: 100px;
+	background: inherit;
+}
+
+.l_arm {
+	left: -55px;
+}
+
+.r_arm {
+	right: -55px;
+}
+
+.l_leg{
+	bottom: -70px;
+	left: 40px;
+}
+
+.r_leg{
+	bottom: -70px;
+	right: 40px;
+}
