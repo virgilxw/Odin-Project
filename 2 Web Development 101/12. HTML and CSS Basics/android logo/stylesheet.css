@@ -2,6 +2,7 @@
 position:absolute;
 margin:20px;
 padding:0;
+
 }
 
 .android_logo {
@@ -16,6 +17,7 @@ background:#A4CA39;
 position:relative;
 top:60px;
 margin:auto;
+transition: all 0.1s ease-in;
 }
 
 .head {
@@ -91,4 +93,14 @@ left:40px;
 .r_leg {
 bottom:-70px;
 right:40px;
+}
+
+.head:hover {
+	transform: rotate(-5deg) translate(-4px, -8px);
+}
+.l_arm:hover{
+	transform: rotate(15deg) translate(-14px, 0);
+}
+.r_arm:hover{
+	transform: rotate(-30deg) translate(30px, 0);
 }
