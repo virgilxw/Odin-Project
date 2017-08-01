@@ -1,5 +1,5 @@
 #outer_frame {
-	width: 1000px;
+	width: 800px;
 	height: 800px;
 	background-color: darkred;
 	border-radius: 50px;
@@ -8,7 +8,7 @@
 }
 
 #inner_frame {
-	width: 900px;
+	width: 700px;
 	height: 700px;
 	background-color: lightgrey;
 	position: relative;
@@ -22,10 +22,10 @@
 	height: 0;
 	position: absolute;
 	transform: rotate(-3deg);
-	top:-20px;
+	top: -20px;
 }
 
-#logo > p {
+#logo>p {
 	font: bold 30px/30px 'Walter Turncoat', cursive;
 	color: gold;
 }
@@ -39,8 +39,18 @@
 	border: solid 5px #c9c9c9;
 	text-align: right;
 }
+
 #grid {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	position: relative;
+	display: inline-block;
+	font-size: 0;
+}
+
+.cell {
+	background-color: black;
+	position: relative;
+	display: inline-block;
 }
