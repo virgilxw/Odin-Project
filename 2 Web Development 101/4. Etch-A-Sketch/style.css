@@ -1,0 +1,46 @@
+#outer_frame {
+	width: 1000px;
+	height: 800px;
+	background-color: darkred;
+	border-radius: 50px;
+	margin: 100px auto;
+	position: relative;
+}
+
+#inner_frame {
+	width: 900px;
+	height: 700px;
+	background-color: lightgrey;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#logo {
+	left: 70px;
+	height: 0;
+	position: absolute;
+	transform: rotate(-3deg);
+	top:-20px;
+}
+
+#logo > p {
+	font: bold 30px/30px 'Walter Turncoat', cursive;
+	color: gold;
+}
+
+#grid_size {
+	position: absolute;
+	height: 25px;
+	width: 40px;
+	top: 6px;
+	right: 100px;
+	border: solid 5px #c9c9c9;
+	text-align: right;
+}
+#grid {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
